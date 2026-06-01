@@ -6,7 +6,7 @@ import {
   MapPin, 
   Phone, 
   Menu, 
-  X, 
+  X, F
   Check, 
   Sparkles,
   ArrowUpRight
@@ -226,11 +226,11 @@ export default function App() {
 
                 <h1 className="font-display font-black text-2xl sm:text-3.5xl lg:text-4xl leading-tight tracking-tight">
                   Night School and Extra Lessons <br className="hidden sm:inline" />
-                  <span className="text-[#FACC15]">Form 1 to Form 6 students</span>
+                  <span className="text-[#FACC15]">Form 1 - 6 students</span>
                 </h1>
                 
                 <p className="text-sm text-green-50/90 font-light leading-relaxed max-w-xl">
-                  Face-to-face tuition for Form 1 to Form 6 — O-Level and A-Level — right in the heart of Bulawayo. Wise Academy is a dedicated face-to-face learning institution committed to academic excellence for every student regardless of background.
+                  Face-to-face tuition for Form 1 - 6 — O-Level and A-Level — right in the heart of Bulawayo. Wise Academy is a dedicated face-to-face learning institution committed to academic excellence for every student regardless of background.
                 </p>
 
                 <div className="flex flex-wrap items-center gap-3 pt-2">
