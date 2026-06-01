@@ -1,0 +1,6 @@
+{
+  "name": "Wise Academy",
+  "description": "Night School and Extra Lessons for Form 1 to Form 6 students in Bulawayo, Zimbabwe",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
