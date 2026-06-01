@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import StIgnatius from '/assets/.aistudio/St-Ignatius-College.webp';
 import { motion, AnimatePresence } from "motion/react";
 import { 
   GraduationCap, 
@@ -71,10 +72,17 @@ export default function App() {
   const whatsappUrl = "https://wa.me/263775939333";
 
   return (
-    <div className="bg-[#F9FAFB] text-slate-800 font-sans selection:bg-[#FACC15] selection:text-[#166534] min-h-screen flex flex-col">
+    <div className="text-slate-800 font-sans selection:bg-[#FACC15] selection:text-[#166534] min-h-screen flex flex-col
+      style={{
+       backgroundImage:`url(${StIgnatius})`'
+       backgroundsize: "cover",
+       backgroundPosition: "center",
+       backgroundRepeat: "no-repeat"
+      }}
+    >
       
       {/* SECTION 1 — NAVBAR */}
-      <nav className="sticky top-0 z-50 bg-[#166534] border-b border-green-800 shadow-md backdrop-blur-md transition-all duration-300">
+      <nav className="sticky top-0 z-50 bg-[#166534]/80 border-b border-green-800 shadow-md backdrop-blur-md transition-all duration-300">
         <div id="nav-container" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             
